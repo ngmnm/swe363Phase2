@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-image: url(/images/footer-background-01.jpg);
+    background-size: cover;
+    position: fixed;
+}
+
+.container {
+    width: 380px;
+    height: 440px;
+    border-radius: 30px;
+    position: relative;
+    margin: 5% auto;
+    background: azure;
+    padding: 5px;
+    text-align: center;
+    color: #033d88;
+
+}
+
+.input-field {
+    padding: 10px 0;
+    margin: auto;
+    margin-bottom: 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    display: block;
+    width: 60%;
+    text-align: center;
+}
+
+.submitBtn {
+    width: 40%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #033d88, #8cc3f0);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+form {
+    margin-top: 17%;
+    /* border: 1px solid #033d88; */
+}

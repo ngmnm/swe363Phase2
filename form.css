@@ -1,0 +1,94 @@
+.container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dac5ab;
+    border-radius: 12px;
+    width: 80%;
+    margin-top: 10%;
+}
+#table{
+    width: 100%;
+    background-color: #dac5ab;
+    border-radius: 12px;
+}
+td, th {
+    border: 1px solid #192841;
+    border-collapse: collapse;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 1px;
+    box-shadow: 0 0 5px 5px #5c5c5c4b;
+}
+
+th {
+    padding: 15px;
+    background-color: #a57335;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    background-clip: content-box;
+    border: none;
+    background-color: antiquewhite;
+    border-radius: 8px;
+}
+
+input[type="radio"]:checked {
+    background-color: #a57335;
+}
+
+.comment {
+    width: 100%;
+    margin: 0px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+}
+
+#addition_comment {
+    width: 100%;
+    margin: 0px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+}
+
+#rating {
+    width: 20%;
+}
+
+#standard {
+    width: 30%;
+}
+
+.submitForm {
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(206, 165, 68, 1) 0%, rgba(121, 104, 9, 1) 72%, rgba(18, 83, 159, 1) 98%);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+#submitCell {
+    border: none;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 1px;
+    box-shadow: none;
+}
+
+.commentCell {
+    border: none;
+    box-shadow: none;
+}

@@ -1,0 +1,153 @@
+.personal_info {
+    border: none;
+    background-color: antiquewhite;
+    height: 200px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    margin: 0px;
+}
+
+.container {
+    width: 80%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    border: 1px solid black;
+    background: #999;
+    color: black;
+}
+
+.personalPhoto {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 20%;
+    margin-top: 10%;
+    position: relative;
+    box-shadow: 0 0 10px 2px #5e5e5e;
+    display: block;
+    border: none;
+    border-radius: 12px;
+}
+
+.info {
+    border: none;
+    background-color: antiquewhite;
+    box-shadow: 0 0 20px 10px #5c5c5c4b;
+    width: 97%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.Table, td {
+    text-align: center;
+    border: none;
+    background-color: antiquewhite;
+    box-shadow: 0 0 20px 10px #5c5c5c4b;
+    margin: auto;
+    padding: 10px;
+    border-radius: 12px;
+    width: 20%;
+    transition: all 0.5s ease-in;
+}
+
+td:hover {
+    opacity: 1;
+    transform: scale(0.98);
+    background-color: antiquewhite;
+    box-shadow: 0 0 10px 2px #5e5e5e;
+}
+
+.standard {
+    border: none;
+    background-color: antiquewhite;
+    box-shadow: 0 0 20px 10px #5c5c5c4b;
+    width: 20%;
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.comments {
+    height: 200px;
+}
+
+.card-inner {
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    display: inline-block;
+}
+
+.flip:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    backface-visibility: hidden;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.insEmail {
+    color: black;
+}
+
+.insEmail:hover {
+    color: darkblue;
+    box-shadow: 0 0 20px 10px #5c5c5c4b;
+}
+
+.insWebsite {
+    color: #192841;
+}
+
+.insWebsite:hover {
+    color: darkblue;
+    box-shadow: 0 0 20px 10px #5c5c5c4b;
+}
+
+.checked {
+    color: orange;
+}
+
+.evaluate {
+    background-color: #dac5ab;
+}
+
+.evaluate:hover {
+    background: linear-gradient(to left, rgb(41, 131, 204), rgb(13, 138, 96));
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.standard h5 {
+    text-align: left;
+}
+
+/* from https://codepen.io/Bluetidepro/pen/GkpEa */
+
+.star-ratings-sprite {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+    font-size: 0;
+    height: 21px;
+    line-height: 0;
+    overflow: hidden;
+    text-indent: -999em;
+    width: 110px;
+    margin: 0 auto;
+}
+
+.rating {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+    background-position: 0 100%;
+    float: left;
+    height: 21px;
+    display: block;
+}

@@ -1,0 +1,76 @@
+.custom-select {
+    background-color: #192841;
+    color: #dac5ab;
+    padding: 8px;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .select-selected {
+    background-color: #192841;
+  }
+  
+  .custom-select:hover,
+  .custom-select:focus {
+    background-color: #4366a3;
+    color: white;
+  }
+  
+  h4 {
+    display: inline-block;
+  }
+  
+  option {
+    position: absolute;
+    background-color: #dac5ab;
+    min-width: 10px;
+    z-index: 1;
+    padding: 10px 16px;
+  }
+  #filename {
+    color: #dac5ab;
+    background-color: #192841;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  ::placeholder {
+    color: #dac5ab;
+  }
+  select {
+    color: #192841;
+  }
+  
+  .container {
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #dac5ab;
+    padding: 10px;
+    border-radius: 12px;
+  }
+  
+  input[type="file"] {
+    color: #dac5ab;
+    background-color: #192841;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  #submitFile {
+    color: #dac5ab;
+    background-color: #192841;
+    float: right;
+    padding: 9px;
+    border-radius: 10px;
+    border: none;
+  }
+  .popmsg{
+      width: 100%;
+      text-align: center;
+      color: #dac5ab;
+      font-size: large;
+  }

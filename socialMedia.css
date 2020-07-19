@@ -1,0 +1,36 @@
+.twitterb{
+    text-align: center;
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+    
+   
+    
+  
+}
+.org{
+    
+    position: relative;
+    text-align: center;
+    height: 55px;
+    list-style: none;
+    font-size: small;
+    
+}
+.fa.fa-whatsapp{
+    font-size: 40px;
+    background-color: antiquewhite;
+    color: green;
+    border: black solid 1px;
+    padding:5px;
+    height: 100%;
+    
+}
+.fa.fa-telegram{    
+    font-size: 40px;
+    background-color: antiquewhite;
+    color: rgb(62, 175, 245);
+    border: black solid 1px;
+    padding: 5px;
+    height: 100%;
+}

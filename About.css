@@ -1,0 +1,31 @@
+/*About page*/
+
+.box {
+  width: 95%;
+  height: auto;
+  position: relative;
+  margin-top: 22%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding: 3px;
+  border: none;
+  border-radius: 12px;
+  background-color: azure;
+}
+
+.Header-Text {
+  text-align: center;
+  position: relative;
+  padding-top: 2%;
+}
+
+.Prograph {
+  text-align: justify;
+  position: relative;
+  padding: 20%;
+  padding-top: 2%;
+  padding-bottom: 0%;
+  font-size: larger;
+  line-height: 1.5;
+}
+
